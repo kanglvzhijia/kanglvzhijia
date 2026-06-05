@@ -1,0 +1,1046 @@
+/* ===================================
+   KangLv ZhiJia - Responsive Styles
+   Mobile & Tablet Adaptations
+   =================================== */
+
+/* ===================================
+   Large Desktop (1400px and above)
+   =================================== */
+
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1320px;
+    }
+    
+    .hero-title {
+        font-size: 4.5rem;
+    }
+    
+    .section {
+        padding: 140px 0;
+    }
+}
+
+/* ===================================
+   Desktop (1200px - 1399px)
+   =================================== */
+
+@media (max-width: 1399px) {
+    .container {
+        max-width: 1140px;
+    }
+    
+    .hero-visual {
+        width: 45%;
+    }
+    
+    .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .advantages-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .footer-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 40px;
+    }
+}
+
+/* ===================================
+   Tablet Landscape (992px - 1199px)
+   =================================== */
+
+@media (max-width: 1199px) {
+    :root {
+        --section-padding: 100px 0;
+    }
+    
+    .container {
+        max-width: 960px;
+    }
+    
+    /* Navigation */
+    .nav-menu {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 80%;
+        max-width: 400px;
+        height: 100vh;
+        background: var(--bg-primary);
+        flex-direction: column;
+        justify-content: center;
+        padding: 40px;
+        transition: var(--transition-smooth);
+        box-shadow: var(--shadow-xl);
+    }
+    
+    .nav-menu.active {
+        right: 0;
+    }
+    
+    .nav-list {
+        flex-direction: column;
+        gap: 25px;
+    }
+    
+    .nav-social {
+        margin-top: 40px;
+    }
+    
+    .nav-close {
+        display: flex;
+    }
+    
+    .nav-toggle {
+        display: flex;
+    }
+    
+    .nav-cta {
+        display: none;
+    }
+    
+    /* Hero */
+    .hero-content {
+        padding: 120px 0 80px;
+    }
+    
+    .hero-visual {
+        display: none;
+    }
+    
+    .hero-title {
+        font-size: 3rem;
+    }
+    
+    .hero-description {
+        font-size: 1.1rem;
+    }
+    
+    .hero-buttons {
+        justify-content: flex-start;
+    }
+    
+    /* About */
+    .about-grid {
+        grid-template-columns: 1fr;
+        gap: 60px;
+    }
+    
+    .about-visual {
+        order: -1;
+    }
+    
+    .about-image-wrapper {
+        height: 400px;
+    }
+    
+    /* Services */
+    .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .service-card-large {
+        padding: 30px;
+    }
+    
+    /* Apps Showcase */
+    .apps-showcase-grid {
+        grid-template-columns: 1fr;
+        gap: 60px;
+    }
+    
+    .apps-showcase-visual {
+        height: 500px;
+    }
+    
+    /* Advantages */
+    .advantages-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+    
+    .advantage-card-large {
+        padding: 30px;
+    }
+    
+    /* CTA */
+    .cta-content h2 {
+        font-size: 2.5rem;
+    }
+    
+    .cta-trust {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    
+    /* Footer */
+    .footer-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+    }
+    
+    .footer-brand {
+        grid-column: span 2;
+        max-width: 100%;
+    }
+}
+
+/* ===================================
+   Tablet Portrait (768px - 991px)
+   =================================== */
+
+@media (max-width: 991px) {
+    :root {
+        --section-padding: 80px 0;
+    }
+    
+    .container {
+        max-width: 720px;
+    }
+    
+    /* Hero */
+    .hero-title {
+        font-size: 2.5rem;
+    }
+    
+    .hero-badge {
+        padding: 8px 16px;
+        font-size: 0.85rem;
+    }
+    
+    /* Stats */
+    .stats-section {
+        margin-top: 0;
+        padding: 60px 0;
+    }
+    
+    .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    
+    .stat-card {
+        padding: 30px 15px;
+    }
+    
+    .stat-number {
+        font-size: 2.5rem;
+    }
+    
+    /* Section Header */
+    .section-header {
+        margin-bottom: 40px;
+    }
+    
+    .section-title {
+        font-size: 2rem;
+    }
+    
+    .section-subtitle {
+        font-size: 1rem;
+    }
+    
+    /* About */
+    .about-text h3 {
+        font-size: 1.5rem;
+    }
+    
+    .about-text p {
+        font-size: 1rem;
+    }
+    
+    .feature-item {
+        padding: 20px;
+    }
+    
+    .feature-icon {
+        width: 50px;
+        height: 50px;
+    }
+    
+    /* Services */
+    .service-card-large {
+        padding: 25px;
+    }
+    
+    .service-icon-wrapper {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .service-card-large h3 {
+        font-size: 1.25rem;
+    }
+    
+    /* Apps */
+    .apps-info-card {
+        padding: 35px;
+    }
+    
+    .apps-info-card h3 {
+        font-size: 1.5rem;
+    }
+    
+    .app-features-list {
+        gap: 15px;
+    }
+    
+    .app-feature-item {
+        padding: 12px;
+    }
+    
+    .apps-store-buttons {
+        flex-direction: column;
+    }
+    
+    .store-button {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    /* Advantages */
+    .advantage-card-large {
+        padding: 25px;
+    }
+    
+    .advantage-icon {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .advantage-number {
+        font-size: 3rem;
+    }
+    
+    .advantage-stats {
+        gap: 20px;
+    }
+    
+    /* CTA */
+    .cta-section {
+        padding: 80px 0;
+    }
+    
+    .cta-content h2 {
+        font-size: 2rem;
+    }
+    
+    .cta-content p {
+        font-size: 1rem;
+    }
+    
+    .cta-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    /* Footer */
+    .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+    
+    .footer-brand {
+        grid-column: span 1;
+    }
+    
+    .footer-bottom-content {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+}
+
+/* ===================================
+   Mobile Landscape (576px - 767px)
+   =================================== */
+
+@media (max-width: 767px) {
+    :root {
+        --section-padding: 60px 0;
+        --container-padding: 0 4%;
+    }
+    
+    .container {
+        max-width: 100%;
+    }
+    
+    /* Hero */
+    .hero {
+        min-height: auto;
+        padding: 100px 0 60px;
+    }
+    
+    .hero-title {
+        font-size: 2rem;
+    }
+    
+    .hero-description {
+        font-size: 1rem;
+        margin-bottom: 30px;
+    }
+    
+    .hero-buttons {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .hero-buttons .btn {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .hero-scroll-indicator {
+        display: none;
+    }
+    
+    .hero-slider-controls {
+        bottom: 20px;
+        right: 20px;
+    }
+    
+    .slider-btn {
+        width: 40px;
+        height: 40px;
+    }
+    
+    /* Stats */
+    .stats-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+    }
+    
+    .stat-card {
+        padding: 25px 10px;
+    }
+    
+    .stat-icon {
+        margin-bottom: 15px;
+    }
+    
+    .stat-icon svg {
+        width: 32px;
+        height: 32px;
+    }
+    
+    .stat-number {
+        font-size: 2rem;
+    }
+    
+    .stat-label {
+        font-size: 0.9rem;
+    }
+    
+    .stat-description {
+        font-size: 0.8rem;
+        display: none;
+    }
+    
+    /* Section Header */
+    .section-tag {
+        padding: 6px 14px;
+        font-size: 0.8rem;
+    }
+    
+    .section-title {
+        font-size: 1.75rem;
+    }
+    
+    .section-subtitle {
+        font-size: 0.95rem;
+    }
+    
+    /* About */
+    .about-image-wrapper {
+        height: 300px;
+    }
+    
+    .about-svg {
+        width: 200px;
+        height: 200px;
+    }
+    
+    .about-experience-badge {
+        padding: 20px 25px;
+    }
+    
+    .badge-number {
+        font-size: 2rem;
+    }
+    
+    .about-features {
+        gap: 15px;
+    }
+    
+    .feature-item {
+        padding: 15px;
+    }
+    
+    .feature-icon {
+        width: 45px;
+        height: 45px;
+    }
+    
+    .feature-content h4 {
+        font-size: 1rem;
+    }
+    
+    /* Services */
+    .services-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .service-card-large {
+        padding: 25px;
+    }
+    
+    .service-icon-wrapper {
+        width: 50px;
+        height: 50px;
+        margin-bottom: 20px;
+    }
+    
+    .service-features {
+        display: none;
+    }
+    
+    .app-store-buttons {
+        flex-direction: column;
+    }
+    
+    /* Apps Showcase */
+    .apps-info-card {
+        padding: 25px;
+    }
+    
+    .apps-info-card h3 {
+        font-size: 1.25rem;
+    }
+    
+    .apps-info-card > p {
+        font-size: 0.95rem;
+    }
+    
+    .app-features-list {
+        display: none;
+    }
+    
+    .apps-showcase-visual {
+        height: 400px;
+    }
+    
+    .phone-mockup-container {
+        width: 250px;
+        height: 500px;
+    }
+    
+    .floating-elements {
+        display: none;
+    }
+    
+    /* Advantages */
+    .advantages-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .advantage-card-large {
+        padding: 25px;
+    }
+    
+    .advantage-number {
+        font-size: 2.5rem;
+    }
+    
+    .advantage-icon {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .advantage-stats {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    
+    /* CTA */
+    .cta-section {
+        padding: 60px 0;
+    }
+    
+    .cta-content h2 {
+        font-size: 1.5rem;
+    }
+    
+    .cta-content p {
+        font-size: 0.95rem;
+    }
+    
+    .cta-badge {
+        padding: 8px 18px;
+        font-size: 0.85rem;
+    }
+    
+    .trust-item {
+        font-size: 0.9rem;
+    }
+    
+    .trust-item svg {
+        width: 20px;
+        height: 20px;
+    }
+    
+    /* Footer */
+    .footer-main {
+        padding: 60px 0 40px;
+    }
+    
+    .footer-column h4 {
+        font-size: 1.1rem;
+    }
+    
+    .footer-contact li {
+        font-size: 0.9rem;
+    }
+    
+    .footer-social {
+        justify-content: center;
+    }
+    
+    /* Back to Top */
+    .back-to-top {
+        width: 45px;
+        height: 45px;
+        bottom: 20px;
+        right: 20px;
+    }
+}
+
+/* ===================================
+   Mobile Portrait (575px and below)
+   =================================== */
+
+@media (max-width: 575px) {
+    :root {
+        --section-padding: 50px 0;
+    }
+    
+    /* Hero */
+    .hero {
+        padding: 80px 0 50px;
+    }
+    
+    .hero-badge {
+        margin-bottom: 20px;
+    }
+    
+    .badge-icon svg {
+        width: 14px;
+        height: 14px;
+    }
+    
+    .hero-title {
+        font-size: 1.75rem;
+    }
+    
+    .hero-description {
+        font-size: 0.95rem;
+    }
+    
+    /* Stats */
+    .stats-section {
+        padding: 40px 0;
+    }
+    
+    .stats-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 12px;
+    }
+    
+    .stat-card {
+        padding: 20px 8px;
+    }
+    
+    .stat-number {
+        font-size: 1.75rem;
+    }
+    
+    .stat-label {
+        font-size: 0.8rem;
+    }
+    
+    /* Section Header */
+    .section-header {
+        margin-bottom: 30px;
+    }
+    
+    .section-tag {
+        padding: 5px 12px;
+        font-size: 0.75rem;
+    }
+    
+    .section-title {
+        font-size: 1.5rem;
+        margin-bottom: 15px;
+    }
+    
+    /* About */
+    .about-image-wrapper {
+        height: 250px;
+    }
+    
+    .about-svg {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .about-experience-badge {
+        padding: 15px 20px;
+        right: 0;
+        bottom: -20px;
+    }
+    
+    .badge-number {
+        font-size: 1.5rem;
+    }
+    
+    .badge-text {
+        font-size: 0.75rem;
+    }
+    
+    /* Services */
+    .services-grid {
+        gap: 15px;
+    }
+    
+    .service-card-large {
+        padding: 20px;
+    }
+    
+    .service-icon-wrapper {
+        width: 45px;
+        height: 45px;
+        margin-bottom: 15px;
+    }
+    
+    .service-icon-wrapper svg {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .service-card-large h3 {
+        font-size: 1.1rem;
+        margin-bottom: 10px;
+    }
+    
+    .service-card-large p {
+        font-size: 0.9rem;
+        margin-bottom: 15px;
+    }
+    
+    .btn-service {
+        padding: 10px 18px;
+        font-size: 0.9rem;
+    }
+    
+    /* Apps Showcase */
+    .apps-info-card {
+        padding: 20px;
+    }
+    
+    .info-badge {
+        padding: 6px 12px;
+        font-size: 0.8rem;
+    }
+    
+    .apps-info-card h3 {
+        font-size: 1.1rem;
+    }
+    
+    .apps-info-card > p {
+        font-size: 0.9rem;
+    }
+    
+    .apps-showcase-visual {
+        height: 350px;
+    }
+    
+    .phone-mockup-container {
+        width: 200px;
+        height: 400px;
+    }
+    
+    /* Advantages */
+    .advantages-grid {
+        gap: 15px;
+    }
+    
+    .advantage-card-large {
+        padding: 20px;
+    }
+    
+    .advantage-number {
+        font-size: 2rem;
+        top: 15px;
+        right: 15px;
+    }
+    
+    .advantage-icon {
+        width: 45px;
+        height: 45px;
+        margin-bottom: 20px;
+    }
+    
+    .advantage-card-large h3 {
+        font-size: 1.1rem;
+    }
+    
+    .advantage-card-large p {
+        font-size: 0.9rem;
+    }
+    
+    .advantage-stats {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    /* CTA */
+    .cta-section {
+        padding: 50px 0;
+    }
+    
+    .cta-badge {
+        padding: 6px 14px;
+        font-size: 0.8rem;
+    }
+    
+    .cta-content h2 {
+        font-size: 1.25rem;
+    }
+    
+    .cta-content p {
+        font-size: 0.9rem;
+        margin-bottom: 30px;
+    }
+    
+    .cta-buttons {
+        margin-bottom: 30px;
+    }
+    
+    .cta-trust {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    /* Footer */
+    .footer-main {
+        padding: 50px 0 30px;
+    }
+    
+    .footer-logo span {
+        font-size: 1.25rem;
+    }
+    
+    .footer-description {
+        font-size: 0.9rem;
+    }
+    
+    .footer-column h4 {
+        font-size: 1rem;
+    }
+    
+    .footer-links a {
+        font-size: 0.9rem;
+    }
+    
+    .footer-contact li {
+        font-size: 0.85rem;
+    }
+    
+    .footer-bottom {
+        padding: 20px 0;
+    }
+    
+    .footer-bottom p {
+        font-size: 0.85rem;
+    }
+    
+    .footer-legal a {
+        font-size: 0.85rem;
+    }
+    
+    /* Back to Top */
+    .back-to-top {
+        width: 40px;
+        height: 40px;
+        bottom: 15px;
+        right: 15px;
+    }
+    
+    .back-to-top svg {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+/* ===================================
+   Very Small Screens (375px and below)
+   =================================== */
+
+@media (max-width: 375px) {
+    /* Hero */
+    .hero-title {
+        font-size: 1.5rem;
+    }
+    
+    .hero-badge span:last-child {
+        display: none;
+    }
+    
+    /* Stats */
+    .stat-card {
+        padding: 15px 5px;
+    }
+    
+    .stat-number {
+        font-size: 1.5rem;
+    }
+    
+    .stat-label {
+        font-size: 0.75rem;
+    }
+    
+    /* Section Title */
+    .section-title {
+        font-size: 1.25rem;
+    }
+    
+    /* Footer */
+    .footer-grid {
+        gap: 30px;
+    }
+    
+    .footer-logo svg {
+        width: 45px;
+        height: 45px;
+    }
+}
+
+/* ===================================
+   Touch Device Optimizations
+   =================================== */
+
+@media (hover: none) and (pointer: coarse) {
+    /* Remove hover effects on touch devices */
+    .stat-card:hover,
+    .service-card-large:hover,
+    .advantage-card-large:hover,
+    .feature-item:hover,
+    .app-feature-item:hover {
+        transform: none;
+    }
+    
+    /* Make buttons larger for touch */
+    .btn {
+        min-height: 48px;
+        min-width: 48px;
+    }
+    
+    /* Adjust navigation */
+    .nav-link {
+        padding: 15px 0;
+    }
+    
+    /* Improve scroll performance */
+    .hero,
+    .stats-section,
+    .about-section,
+    .services-section,
+    .apps-showcase,
+    .why-us-section,
+    .cta-section {
+        transform: translateZ(0);
+        will-change: transform;
+    }
+}
+
+/* ===================================
+   High DPI / Retina Displays
+   =================================== */
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    /* Ensure SVG icons are crisp */
+    .hero-floating-card svg,
+    .stat-icon svg,
+    .feature-icon svg,
+    .service-icon-wrapper svg,
+    .advantage-icon svg {
+        shape-rendering: geometricPrecision;
+    }
+    
+    /* Optimize background gradients */
+    .hero-gradient,
+    .services-gradient,
+    .cta-bg {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+    }
+}
+
+/* ===================================
+   Print Styles
+   =================================== */
+
+@media print {
+    /* Hide non-essential elements */
+    .preloader,
+    .hero-scroll-indicator,
+    .hero-slider-controls,
+    .back-to-top,
+    .nav-toggle,
+    .nav-social,
+    .nav-cta {
+        display: none !important;
+    }
+    
+    /* Optimize print layout */
+    .hero {
+        min-height: auto;
+        padding: 20px 0;
+        background: white !important;
+    }
+    
+    .hero-title,
+    .hero-description {
+        color: black !important;
+    }
+    
+    .section {
+        padding: 30px 0;
+        page-break-inside: avoid;
+    }
+    
+    .stat-card,
+    .service-card-large,
+    .advantage-card-large {
+        box-shadow: none;
+        border: 1px solid #ddd;
+        page-break-inside: avoid;
+    }
+    
+    .footer {
+        background: white !important;
+        color: black !important;
+    }
+    
+    .footer-bottom {
+        border-top: 1px solid #ddd;
+    }
+}

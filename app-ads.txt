@@ -1,0 +1,84 @@
+# app-ads.txt
+# This file is used for app-ads.txt compliance on Google Play and other app stores
+# Add your advertising platform publisher IDs below
+
+# Google AdMob
+# publisher-id/pub-XXXXXXXXXXXXXXXX
+
+# Facebook Audience Network
+# placement-id/XXXXXXXXXX
+
+# Unity Ads
+# game-id/XXXXXXX
+
+# AppLovin
+# sdk-key/XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
+
+# ironSource
+# application-key/XXXXXXXX
+
+# AdColony
+# app-id/com.yourcompany.yourapp
+
+# Vungle
+# app-id/XXXXXXXXXXXXXXX
+
+# Chartboost
+# app-id/XXXXXXXXXXXXXXX
+
+# Pangle
+# app-id/XXXXXXXXXX
+
+# Mintegral
+# app-key/XXXXXXXXXXXXXXX
+
+# Ogury
+# asset-key/XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
+
+# Liftoff
+# app-id/XXXXXXXXXXXXXXX
+
+# InMobi
+# account-id/XXXXXXXXXXXXXXXXXXXXXXX
+
+# Smaato
+# publisher-id/XXXXXXXXXX
+
+# MoPub (Twitter)
+# ad-unit-id/XXXXXXXXXXXXXXXXXXXXXXX
+
+# Tapjoy
+# app-id/XXXXXXXXXXXXXXX
+
+# StartApp
+# app-id/XXXXXXXX
+
+# Yandex
+# publisher-id/XXXXXXXX
+
+# Amazon Ads
+# app-key/amzn-XXXXXXXXXXXXXXXX
+
+# Index Exchange
+# source-id/XXXXXXXX
+
+# OpenX
+# unit-id/XXXXXXXXXXXXXXXX
+
+# PubMatic
+# publisher-id/XXXXXXXXX
+
+# Rubicon Project
+# account-id/XXXXXXXX
+
+# Smart AdServer
+# placement-id/XXXXXXXXX
+
+# Triplelift
+# inventory-code/XXXXXXXX
+
+# Magnite (SpotX)
+# channel-id/XXXXXXXX
+
+# Criteo
+# app-id/XXXXXXXXXXXXXXX
