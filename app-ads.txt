@@ -22,7 +22,7 @@
 
 # Vungle
 # app-id/XXXXXXXXXXXXXXX
-
+vungle.com, 6ae938ac072353e2c43c90f1, DIRECT, c107d686becd2d77
 # Chartboost
 # app-id/XXXXXXXXXXXXXXX
 
